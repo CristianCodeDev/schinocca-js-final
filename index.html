@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/styles.css">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <nav class="nav-class">
+      <ul class="nav-class" id="navbar">
+
+        <li><a href="./pages/productos.html"><button class="button-nav">Tienda</button></a></li>
+
+        <button class="btn button-nav-cart" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+          aria-controls="offcanvasRight">
+          <img src="./images/shop-cart/shopping-cart.png" alt="" class="img-shop-cart">
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+          <div class="offcanvas-header d-flex">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body" id="of-cart">
+            <!----------se trae del js-------------->
+          </div>
+        </div>
+        </div>
+      </ul>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="section-class" id="section">
+      <article class="article-product">
+        <img src="./assets/cascos-product.webp" alt="Cascos" class="image-product">
+        <h2 class="name-product">Cascos</h2>
+        <p class="price-product">$950</p>
+        <button id="button-one" class="button-cart">Agregar Cascos</button>
+      </article>
+      <article class="article-product">
+        <img src="./assets/nike-product.webp" alt="Nike Airforce 1" class="image-product">
+        <h2 class="name-product">Nike Airforce 1</h2>
+        <p class="price-product">$400</p>
+        <button id="button-two" class="button-cart">Agregar Nike Airforce 1</button>
+      </article>
+      <article class="article-product">
+        <img src="./assets/reloj-product.jpg" alt="AppleWatch" class="image-product">
+        <h2 class="name-product">AppleWatch</h2>
+        <p class="price-product">$300</p>
+        <button id="button-tree" class="button-cart">Agregar AppleWatch</button>
+      </article>
+    </section>
+  </main>
+  <footer class="background--footer">
+    <div class="container">
+      <div class="row">
+        <div class="d-flex justify-content-center align-items-center flex-column">
+          <h5 class="texto mt-4 mb-2 contactos">Contactos</h5>
+          <h6 class="texto text-center mt-2 mb-2">Seguinos en nuestras redes y enterate todo sobre las tendencias
+          </h6>
+          </section>
+          <!-----------------ICONOS---------------->
+          <ul class="d-flex justify-content-center flex-row align-items-center mt-2 mb-2">
+            <li class="nav-item list-unstyled">
+              <a href="https://www.instagram.com/cris.schinocca/" class=""><img src="./icons/instagram.png"
+                  alt="icono instagram" class="icono"></a>
+            </li>
+            <li class="nav-item list-unstyled">
+              <a href="https://twitter.com/crisschinocca" class="m-3"><img src="./icons/twitter.png"
+                  alt="icono twitter" class="icono"></a>
+            </li>
+            <li class="nav-item list-unstyled">
+              <a href="https://www.facebook.com/crisschinocca/" class=""><img src="./icons/facebook.png"
+                  alt="icono facebook" class="icono"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+      <div class="d-flex justify-content-center align-items-center">
+        <p class="texto text-center"> Creado por <span class="texto2">Cristian Schinocca</span></p>
+      </div>
+  </footer>
+  <script src="./js/product.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>

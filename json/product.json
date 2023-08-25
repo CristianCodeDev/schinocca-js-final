@@ -1,0 +1,22 @@
+[
+    {
+        "id": "button-one",
+        "img": "../assets/cascos-product.webp",
+       "name": "Cascos",
+        "price": "$950"
+    },
+
+    {
+        "id": "button-two",
+        "img": "../assets/nike-product.webp",
+        "name": "Nike Airforce 1",
+        "price": "$400"
+    },
+    
+    {
+        "id": "button-tree",
+        "img": "../assets/reloj-product.jpg",
+        "name": "AppleWatch",
+        "price": "$300"
+    }
+]
